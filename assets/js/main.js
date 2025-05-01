@@ -227,5 +227,6 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
   window.scrollTo(0, 0);
+  document.getElementById('someElement')?.scrollIntoView();
 
 })();
